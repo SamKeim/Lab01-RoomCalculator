@@ -39,6 +39,7 @@ public class RoomCalculator {
 			System.out.println("Would you like to calculate another room? (Y/N)");
 			userChoice = scnr.nextLine();
 			
+			//I would like to get this to work with the .substring.equalsIgnoreCase but it is not working and I am out of time for problem solving
 			while (!(userChoice.equalsIgnoreCase("Y")) && !(userChoice.equalsIgnoreCase("N"))) {
 			System.out.println("Please enter Y or N.");
 			userChoice = scnr.nextLine();
